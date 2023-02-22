@@ -71,7 +71,7 @@ Następnie wytłumaczymy gościom naszej strony, w jaki sposób mogą przekazywa
 st.header('1. Instrukcje')
 st.markdown('''
 Dodaj na koniec obecnego adresu URL, który widzisz w pasku przeglądarki powyżej następującą treść:
-`?name=Jack&surname=Beanstalk`
+`?firstname=Jack&surname=Beanstalk`
 zaraz po głównej części `http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/`
 więc cały adres wygląda następująco: 
 `http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk`
